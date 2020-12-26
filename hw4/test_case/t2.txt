@@ -1,0 +1,9 @@
+setenv PATH bin:.:/usr/bin
+printenv PATH
+sleep 1
+ls bin | head -n 5 | delaycat 0.5
+echo "Testing" |2
+noop
+cowthink -n | delaycat 1
+noop
+exit

@@ -1,0 +1,8 @@
+setenv PATH bin:.:/usr/bin
+ls -al | delaycat 1
+who
+echo "I'm going to sleep for awhile." | delaycat 1
+sleep 5
+echo "I'm awake" | delaycat 1
+cat test.html | number | delaycat 1
+exit

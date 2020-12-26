@@ -1,0 +1,7 @@
+cat test.html |2
+noop
+delayedremovetag
+removetag test.html | number | delaycat 1
+noop
+removetag test.html | number | number | delaycat 1
+exit
